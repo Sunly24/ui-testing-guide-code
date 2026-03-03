@@ -22,14 +22,15 @@
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
     "chromatic": "npx chromatic --project-token=chpt_72766dfd34f88c4",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@storybook/addon-a11y": "^10.2.14",
+    "@storybook/addon-a11y": "8.3.2",
     "@storybook/addon-essentials": "^8.3.2",
     "@storybook/addon-interactions": "^8.3.2",
     "@storybook/addon-links": "^8.3.2",
@@ -42,6 +43,7 @@
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
     "axe-playwright": "^2.2.2",
+    "cypress": "^15.11.0",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",

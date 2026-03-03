@@ -16,5 +16,13 @@ module.exports = {
   plugins: ['react-refresh'],
   rules: {
     'react-refresh/only-export-components': 'warn'
-  }
+  },
+  overrides: [
+    {
+      files: ['cypress/**/*.js'],
+      env: {
+        'cypress/globals': true
+      }
+    }
+  ]
 };
